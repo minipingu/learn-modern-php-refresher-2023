@@ -8,6 +8,10 @@ class Account {
   public float $balance
   ) {}
 
+  function deposit($amount){
+    $this->balance += $amount;
+  }
+
   
 }
 ?>
